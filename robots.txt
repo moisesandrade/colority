@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colority.art/sitemap.xml

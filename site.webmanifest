@@ -1,0 +1,18 @@
+{
+  "name": "Colority — Taller de color",
+  "short_name": "Colority",
+  "description": "Teoría del color y mezcla de pigmentos para pintores: círculo cromático, armonías, paleta Zorn y extracción de paletas desde fotos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#E9E5DC",
+  "theme_color": "#1B1C1E",
+  "lang": "es",
+  "categories": ["art", "education", "productivity"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

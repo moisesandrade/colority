@@ -1,0 +1,26 @@
+COLORITY.ART — archivos para subir al servidor (Vercel / GitHub)
+================================================================
+Sube TODOS estos archivos a la raíz del repositorio (junto a index.html):
+
+  index.html          La app (nueva marca, ofuscada, con SEO y el "Sobre mí")
+  robots.txt          Permite el rastreo e indica el sitemap
+  sitemap.xml         Mapa del sitio para Google Search Console
+  site.webmanifest    Metadatos para instalar como app en el móvil
+  favicon.svg         Icono del navegador (vectorial)
+  favicon.ico         Icono del navegador (respaldo)
+  icon-180.png        Icono iOS
+  icon-192.png        Icono Android / manifest
+  icon-512.png        Icono grande / manifest
+  og-image.png        Imagen al compartir el enlace
+
+GOOGLE ANALYTICS
+----------------
+El index.html trae el código de Analytics con un ID de ejemplo:
+G-XXXXXXXXXX  (aparece 2 veces en el <head>). Reemplázalo por tu ID real.
+Si me pasas tu ID (empieza por "G-"), te dejo el archivo ya listo.
+
+DESPUÉS DE SUBIR
+----------------
+1. Da de alta el dominio en Google Search Console y verifica la propiedad.
+2. En "Sitemaps", envía: sitemap.xml
+3. Pide indexación de https://colority.art/ en "Inspección de URLs".
